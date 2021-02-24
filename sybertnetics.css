@@ -1,0 +1,147 @@
+body {
+}
+p{
+font-size: 22px;
+color:gold;
+font-style: sans-serif;
+}
+input[type=text] {
+  background-color: crimson;
+  color: white;
+}
+select {
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: crimson;
+  color: white;
+}
+label{
+	color:gold;
+}
+textarea {
+  height: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: crimson;
+  color:white;
+  resize: none;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: crimson;
+  border: gold;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.my_hero{
+width: 350px;
+height: 300px;
+box-shadow: 10px 5px 5px crimson;
+}
+.actionshot{
+box-shadow: 10px 5px 5px crimson;
+margin-right: auto;
+margin-left: auto;
+display: block;
+width: 250px;
+height:200px;
+}
+.wedding{
+box-shadow: 10px 10px 20px crimson;
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: 40%;
+}
+.logo{
+width: 50px;
+height: 50px;
+display: block;
+margin-left:auto;
+}
+
+.title{
+font-size: 30px;
+font-weight: bold;
+color:gold;
+font-style: sans-serif;
+}
+.titlepage{
+font-size: 60px;
+font-weight: bold;
+color:gold;
+font-style: sans-serif;
+text-align: center;
+}
+.index{
+  background-image: url('cheese.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.about{
+  background-image: url('cheese.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.services{
+  background-image: url('cheese.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.contact{
+  background-image: url('cheese.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.heading{
+  font-size: 20px;
+  font-style: sans-serif;
+  color:gold;
+  font-weight:bold;
+}
+table{
+color:gold;
+border-color: black;
+text-align: center;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}

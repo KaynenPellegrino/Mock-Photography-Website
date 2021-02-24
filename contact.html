@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- contact.html --->
+<html>
+	<head>
+		<title> Contact Sybertnetics Photography</title>
+		<link rel="stylesheet" href="sybertnetics.css">
+	</head>
+  <body style="background-color: indigo">
+		<header class="navigation">
+			<div class="title">Shoot us a message!</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a class="active" href="contact.html">Contact</a></li>
+          <img src="img/logo.png" alt="Sybertnetics" class="logo">
+				</ul>
+
+			</nav>
+		</header>
+
+		<section>
+			<p> Due to staffing, we cannot accept incoming phone calls, we just couldn't handle it! 
+        <br>But fill out our contact form here and we will get back to you within 48 hours, promise!</p>
+			  <form action="action_page.php">
+
+   				<label for="fname">First Name</label>
+   				<br><input type="text" id="fname" name="firstname" placeholder="Your first name?">
+
+    			<br><label for="lname">Last Name</label>
+    			<br><input type="text" id="lname" name="lastname" placeholder="Your last name?">
+
+   				<br><label for="email">Email</label>
+   				<br><input type="text" id="email" name="emailaddress" placeholder= "Your email address?">
+
+   				<br><label for="pnumber">Phone Number</label>
+   				<br><input type="text" id="pnumber" name="phonenumber" placeholder="Your phone number?">
+
+   				<br><label for="event">Reason for Contact</label>
+   				<br><select id="event" name="event">
+   					<option value="event">Event Inquiry</option>
+   					<option value="quote">Price Quote</option>
+   					<option value="info">Information</option>
+   					<option value="other">Other</option>
+   				</select>
+  				<br><label for="contact">Describe Your Need</label>
+  				<br><textarea id="contact" name="contact" placeholder="How can we help you?" style="height:200px"></textarea>
+
+  				<br><form method="post" action="mailto:soitskay@gmail.com" >
+              <input type="submit" value="Send Email" /> 
+              </form>
+  			</form>
+  		</section>
+  	</body>
+  	</html>
+
+
